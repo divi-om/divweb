@@ -55,3 +55,8 @@ document.querySelectorAll('.img').forEach(img => {
 document.querySelector('button.close').addEventListener('click', (e) => {
     document.querySelector('aside').classList.remove('view');
 })
+const confetti = document.querySelector('.confetti');
+document.addEventListener('mousemove', (e) => {
+    confetti.style.top = e.offsetY + 'px';
+    confetti.style.left = e.offsetX + 'px';
+})

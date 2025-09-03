@@ -268,3 +268,10 @@ section:nth-child(2)>.download{
     -webkit-text-fill-color:transparent;
     background-clip: text;
 }
+.confetti{
+    height: .5rem;
+    width: 2.5rem;
+    background-color: #e35;
+    transform: rotate(8deg);
+    position: fixed;
+}
